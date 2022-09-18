@@ -1,0 +1,63 @@
+:root {
+    --dark0: #282828;
+    --light0: #fbf1c7;
+    --neutral_orange: #d65d0e;
+    --neutral_yellow: #d79921;
+}
+
+@font-face {
+    font-family: Iosevka;
+    src: url(assets/fonts/iosevka-latin-400-normal.woff2);
+}
+
+body {
+    max-width: 80%;
+    min-width: 50%;
+    background-color: var(--dark0);
+    color: var(--light0);
+    text-align: center;
+    font-size: 2em;
+    font-family: "Iosevka";
+}
+
+h1 {
+    text-align: center;
+    color: var(--neutral_orange);
+}
+
+h1.hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color: var(--neutral_yellow);
+}
+
+p.links {
+    font-size: 1.5em;
+}
+
+a {
+    color: var(--light0);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.title_link {
+    color: var(--neutral_orange);
+}
+
+.main_pic {
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.main_pic:hover {
+    width: 310px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
