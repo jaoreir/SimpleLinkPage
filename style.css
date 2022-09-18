@@ -50,13 +50,13 @@ a.title_link {
     color: var(--neutral_orange);
 }
 
-.main_pic {
+img.main_pic {
     width: 300px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-.main_pic:hover {
+img.main_pic:hover {
     width: 310px;
     padding-top: 0px;
     padding-bottom: 0px;
