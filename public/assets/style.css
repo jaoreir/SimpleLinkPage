@@ -5,6 +5,7 @@
     --neutral_orange: #d65d0e;
     --neutral_yellow: #d79921;
     --neutral_yellow_transparent: #d7992110;
+    --neutral_green: #98971a;
 }
 
 @font-face {
@@ -33,6 +34,10 @@ h1>a,
 h2,
 h2>a {
     color: var(--neutral_orange);
+}
+
+h3, h3>a {
+    color: var(--neutral_green);
 }
 
 a {
